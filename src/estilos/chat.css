@@ -1,0 +1,73 @@
+.fila-1 {
+    margin: 10px;
+    margin-top: 30px;
+    height: 80vh;
+}
+
+.contenedor-chat {
+    background-color: #111110;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.chat-texto {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+
+.chat-texto .titulo {
+    text-align: center;
+}
+
+.chat-conversacion {
+    color: white;
+    position: relative;
+    height: 70vh;
+}
+
+.chat-conversacion p {
+    
+    margin: 0px;
+}
+
+.chat-conversacion p span {
+    font-weight: bold;
+}
+
+.input {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 65%;
+    height: 65px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.contenedor-chat button {
+    color: white;
+    background-color: #477ADF;
+    margin: auto;
+    display: block;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.enviar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    height: 65px;
+}
+
+.salir {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15%;
+    height: 65px;
+}

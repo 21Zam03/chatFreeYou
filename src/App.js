@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import Aviso from './component/aviso';
+import Navegador from './component/navegador';
+import Chat from './component/chat';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Aviso/>
     </div>
   );
 }

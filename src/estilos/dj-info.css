@@ -1,0 +1,15 @@
+.contenedor-info {
+    background-color: red;
+    width: 1000px;
+    padding: 10px;
+}
+
+.imagen-info {
+    width: 25%;
+    display: inline-block;
+}
+
+.texto-info {
+    display: inline-block;
+    background-color: yellow;
+}

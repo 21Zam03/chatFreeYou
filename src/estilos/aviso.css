@@ -1,0 +1,60 @@
+.contenedor-aviso {
+    color: white;
+    background-color: #111110;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+    padding: 40px 20px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-aviso .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor-aviso .container .titulo {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedor-aviso .container .titulo h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contenedor-aviso .container .flexible {
+    display: inline-flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin: auto;
+}
+.contenedor-aviso .container .flexible label {
+    margin-right: 10px;
+}
+
+.contenedor-aviso .container .flexible .nombre-form, .color-form {
+    margin-bottom: 20px;
+}
+
+.contenedor-aviso .container .boton-form {
+    margin-top: 20px;
+}
+
+.boton {
+    color: white;
+    background-color: #656563;
+    margin: auto;
+    display: block;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.boton:hover {
+    background-color: black;
+}
